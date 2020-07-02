@@ -26,7 +26,7 @@
 
 				<span th:if="${data != null && data.name == 'error'}">Invalid
 					zip code, no weather for you</span>
-				<div th:if="${data !=null && data.name != 'error'}">
+				<div th:if="${data != null && data.name != 'error'}">
 					<h1 class="text-center">
 						Weather Conditions For: <span th:text="${data.name}"></span>
 					</h1>
